@@ -3,7 +3,7 @@ namespace common\models;
 
 use Yii;
 use yii\base\Model;
-use backend\models\User;
+use core\models\User;
 
 /**
  * Login form
@@ -73,15 +73,6 @@ class LoginForm extends Model
                 $modelUser = User::find()
                         ->joinWith([
                             'userLevel',
-                            'userLevel.defaultActionCrm' => function($query) {
-                                $query->from('user_app_module default_action_crm');
-                            },
-                            'userLevel.defaultActionCms' => function($query) {
-                                $query->from('user_app_module default_action_cms');
-                            },
-                            'userLevel.defaultActionFront' => function($query) {
-                                $query->from('user_app_module default_action_front');
-                            },
                         ])
                         ->andWhere(['user.id' => Yii::$app->user->getIdentity()->id])
                         ->asArray()->one();
@@ -90,32 +81,7 @@ class LoginForm extends Model
                 $data['user_level']['nama_level'] = $modelUser['userLevel']['nama_level'];
                 $data['user_level']['is_super_admin'] = $modelUser['userLevel']['is_super_admin'];
 
-                $subProgram = null;
-                $namaModule = null;
-                $moduleAction = null;
-
-                $defaultAction['administrator'] = 'defaultActionCrm';
-                $defaultAction['administrator-cms'] = 'defaultActionCms';
-                $defaultAction['front'] = 'defaultActionFront';
-
-                if (!empty($defaultAction[Yii::$app->params['subprogramLocal']])) {
-
-                    $subProgram = $modelUser['userLevel'][$defaultAction[Yii::$app->params['subprogramLocal']]]['sub_program'];
-                    $namaModule = $modelUser['userLevel'][$defaultAction[Yii::$app->params['subprogramLocal']]]['nama_module'];
-                    $moduleAction = $modelUser['userLevel'][$defaultAction[Yii::$app->params['subprogramLocal']]]['module_action'];
-                }
-
-                if (empty($subProgram) || empty($namaModule) || empty($moduleAction)) {
-                    throw new \yii\web\UnauthorizedHttpException();
-                }
-
-                $rootUrl = Yii::getAlias('@rootUrl') . '/';
-
-                $subProgram = !empty(Yii::$app->params['subprogram'][$subProgram]) ?  Yii::$app->params['subprogram'][$subProgram] . '/' : '';
-
-                $data['user_level']['default_action'] = $rootUrl . $subProgram . $namaModule . '/' . $moduleAction;
-
-                $userAkses = \backend\models\UserAkses::find()
+                $userAkses = \core\models\UserAkses::find()
                         ->joinWith(['userLevel', 'userAppModule'])
                         ->andWhere(['user_akses.user_level_id' => $data['user_level']['id']])
                         ->asArray()->all();
