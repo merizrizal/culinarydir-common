@@ -13,6 +13,7 @@ class LoginForm extends Model
     public $login_id;
     public $password;
     public $rememberMe = true;
+    public $useSocmed = false;
 
     private $_user = false;
 
@@ -66,8 +67,13 @@ class LoginForm extends Model
     public function login()
     {
         $notActive = false;
+        $validate = true;
 
-        if ($this->validate() && !($notActive = $this->getUser()->not_active)) {
+        if(!$this->useSocmed) {
+            $validate = $this->validate();
+        }
+
+        if ($validate && !($notActive = $this->getUser()->not_active)) {
             if (Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0)) {
 
                 $modelUser = User::find()
