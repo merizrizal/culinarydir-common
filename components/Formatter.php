@@ -89,4 +89,28 @@ class Formatter extends \yii\i18n\Formatter {
 
         return Yii::t('app', '{delta, plural, =1{a second} other{# seconds}} ago', ['delta' => $interval->s], $this->locale);
     }
+
+    public function asShortCurrency($value) {
+
+        if ($value === null) {
+            return $this->nullDisplay;
+        }
+
+        if (!empty($value)) {
+
+            return str_replace('km', 'K', Yii::$app->formatter->asShortLength($value));
+        }
+    }
+
+    public function asNoSymbolCurrency($value) {
+
+        if ($value === null) {
+            return $this->nullDisplay;
+        }
+
+        if (!empty($value)) {
+
+            return str_replace('Rp', '', Yii::$app->formatter->asCurrency($value));
+        }
+    }
 }
