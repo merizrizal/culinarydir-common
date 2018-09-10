@@ -89,6 +89,7 @@ return [
     'Product Category Specific' => 'Kategori Menu Spesifik',
     'Parent Category' => 'Induk Kategori',
     'Product' => 'Menu',
+    'Description' => 'Deskripsi',
     'Product Category ID' => 'ID Kategori Menu',
     'Facility' => 'Fasilitas',
     'Province' => 'Provinsi',
