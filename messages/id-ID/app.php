@@ -145,4 +145,7 @@ return [
     'Price Range' => 'Rentang Harga',
     'Price Min' => 'Harga Minimal',
     'Price Max' => 'Harga Maksimal',
+
+    'Back to Search Result' => 'Kembali ke Hasil Pencarian',
+    'View Details' => 'Tampilkan Detail',
 ];
