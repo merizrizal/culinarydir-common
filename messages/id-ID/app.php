@@ -157,4 +157,5 @@ return [
     'Forgot Password' => 'Lupa Password',
     'Send Request' => 'Kirim Permintaan',
     'Recent Activity' => 'Aktivitas Terbaru',
+    'Back' => 'Kembali',
 ];
