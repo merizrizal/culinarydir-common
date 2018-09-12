@@ -126,6 +126,10 @@ return [
     'Current Membership Type' => 'Jenis Membership Saat Ini',
     'Upgrade Membership Type' => 'Upgrade Jenis Membership',
     'Instruction' => 'Instruksi',
+    'Title' => 'Judul',
+    'Short Description' => 'Deskripsi Singkat',
+    'Date Start' => 'Tanggal Mulai',
+    'Date End' => 'Tanggal Berakhir',
 
     'Open' => 'Buka',
     'Closed' => 'Tutup',
