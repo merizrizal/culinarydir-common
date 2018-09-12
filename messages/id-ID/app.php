@@ -89,6 +89,7 @@ return [
     'Product Category Specific' => 'Kategori Menu Spesifik',
     'Parent Category' => 'Induk Kategori',
     'Product' => 'Menu',
+    'Description' => 'Deskripsi',
     'Product Category ID' => 'ID Kategori Menu',
     'Facility' => 'Fasilitas',
     'Province' => 'Provinsi',
@@ -125,6 +126,10 @@ return [
     'Current Membership Type' => 'Jenis Membership Saat Ini',
     'Upgrade Membership Type' => 'Upgrade Jenis Membership',
     'Instruction' => 'Instruksi',
+    'Title' => 'Judul',
+    'Short Description' => 'Deskripsi Singkat',
+    'Date Start' => 'Tanggal Mulai',
+    'Date End' => 'Tanggal Berakhir',
 
     'Open' => 'Buka',
     'Closed' => 'Tutup',
@@ -145,4 +150,7 @@ return [
     'Price Range' => 'Rentang Harga',
     'Price Min' => 'Harga Minimal',
     'Price Max' => 'Harga Maksimal',
+
+    'Back to Search Result' => 'Kembali ke Hasil Pencarian',
+    'View Details' => 'Tampilkan Detail',
 ];
