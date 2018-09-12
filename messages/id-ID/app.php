@@ -111,6 +111,7 @@ return [
     'Registry Business' => 'Registrasi Bisnis',
     'Business' => 'Bisnis',
     'Business Information' => 'Informasi Bisnis',
+    'About' => 'Tentang',
     'Membership Type ID' => 'ID Jenis Membership',
     'Unique Name' => 'Nama Unik',
     'Approval Date' => 'Tanggal Approve',
