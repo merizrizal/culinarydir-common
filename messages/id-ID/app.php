@@ -111,6 +111,7 @@ return [
     'Registry Business' => 'Registrasi Bisnis',
     'Business' => 'Bisnis',
     'Business Information' => 'Informasi Bisnis',
+    'About' => 'Tentang',
     'Membership Type ID' => 'ID Jenis Membership',
     'Unique Name' => 'Nama Unik',
     'Approval Date' => 'Tanggal Approve',
@@ -153,5 +154,7 @@ return [
 
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
     'View Details' => 'Tampilkan Detail',
+    'Forgot Password' => 'Lupa Password',
+    'Send Request' => 'Kirim Permintaan',
     'Recent Activity' => 'Aktivitas Terbaru',
 ];
