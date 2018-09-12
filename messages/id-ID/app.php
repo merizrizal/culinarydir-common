@@ -149,4 +149,6 @@ return [
 
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
     'View Details' => 'Tampilkan Detail',
+    'Forgot Password' => 'Lupa Password',
+    'Send Request' => 'Kirim Permintaan',
 ];
