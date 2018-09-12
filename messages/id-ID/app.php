@@ -154,4 +154,5 @@ return [
 
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
     'View Details' => 'Tampilkan Detail',
+    'Back' => 'Kembali',
 ];
