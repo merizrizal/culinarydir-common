@@ -155,5 +155,4 @@ return [
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
     'Back' => 'Kembali',
     'View Details' => 'Tampilkan Detail',
-    'Back' => 'Kembali',
 ];
