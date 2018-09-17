@@ -158,4 +158,5 @@ return [
     'Send Request' => 'Kirim Permintaan',
     'Recent Activity' => 'Aktivitas Terbaru',
     'Back' => 'Kembali',
+    'View Details' => 'Tampilkan Detail',
 ];
