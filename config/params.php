@@ -1,7 +1,7 @@
 <?php
 return [
     'adminEmail' => 'meriz.works@gmail.com',
-    'supportEmail' => 'customercare@asikmakan.com',
+    'supportEmail' => 'asikmakan.bandung@gmail.com',
     'user.passwordResetTokenExpire' => 3600,
 
     'currencyOptions' => '
