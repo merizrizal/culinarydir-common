@@ -69,7 +69,7 @@ class LoginForm extends Model
         $notActive = false;
         $validate = true;
 
-        if(!$this->useSocmed) {
+        if (!$this->useSocmed) {
             $validate = $this->validate();
         }
 
@@ -99,8 +99,10 @@ class LoginForm extends Model
                 return true;
             }
         } else {
-            if ($notActive)
+
+            if ($notActive) {
                 $this->addError('login_id', 'This user is not active');
+            }
 
             return false;
         }

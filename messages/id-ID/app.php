@@ -162,4 +162,6 @@ return [
     'Load More' => 'Tampilkan Lebih Banyak',
     'OR' => 'ATAU',
     'Sign In With' => 'Masuk dengan ',
+    'Your Account Has Been Activated' => 'Akun Anda Telah Diaktivasi',
+    'Login To' => 'Masuk Ke ',
 ];
