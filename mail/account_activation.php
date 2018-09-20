@@ -6,8 +6,7 @@ use yii\helpers\Html;
 /* @var $full_name */
 /* @var $user common\models\User */
 
-$activationLink = Yii::$app->urlManager->createAbsoluteUrl(['site/activate-account', 'token' => $user->account_activation_token]);
-?>
+$activationLink = Yii::$app->urlManager->createAbsoluteUrl(['site/activate-account', 'token' => $user->account_activation_token]); ?>
 
 <div class="activation">
     <p>Hello <?= $full_name ?>,</p>

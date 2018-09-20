@@ -159,4 +159,7 @@ return [
     'Recent Activity' => 'Aktivitas Terbaru',
     'Back' => 'Kembali',
     'View Details' => 'Tampilkan Detail',
+    'Load More' => 'Tampilkan Lebih Banyak',
+    'OR' => 'ATAU',
+    'Sign In With' => 'Masuk dengan ',
 ];
