@@ -153,8 +153,8 @@ return [
     'Price Max' => 'Harga Maksimal',
 
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
-    'View Details' => 'Tampilkan Detail',
     'Back' => 'Kembali',
+    'View Details' => 'Tampilkan Detail',
     'Ambience' => 'Suasana',
     'Report' => 'Laporkan',
     'Booking' => 'Reservasi',
