@@ -164,4 +164,7 @@ return [
     'Sign In With' => 'Masuk dengan ',
     'Your Account Has Been Activated' => 'Akun Anda Telah Diaktivasi',
     'Login To' => 'Masuk Ke ',
+    'Request Password Reset' => 'Permintaan Reset Password',
+    'Check your email for further instructions' => 'Periksa email Anda untuk instruksi lebih lanjut',
+    'An error has occurred while requesting password reset' => 'Terjadi kesalahan saat meminta pengaturan ulang kata sandi',
 ];
