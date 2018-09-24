@@ -165,4 +165,17 @@ return [
     'Your Account Has Been Activated' => 'Akun Anda Telah Diaktivasi',
     'Login To' => 'Masuk Ke ',
     'You Have Registered To' => 'Anda Telah Mendaftar di '
+    'Ambience' => 'Suasana',
+    'Report' => 'Laporkan',
+    'Booking' => 'Reservasi',
+    'Special & Discount' => 'Spesial & Diskon',
+    'About' => 'Tentang',
+    'Add Photo' => 'Tambah Foto',
+    'Your Review' => 'Review Anda',
+    'Write a Review' => 'Tulis Review',
+    'Showing ' => 'Menampilkan ',
+    ' OF ' => ' dari ',
+    'Results' => 'hasil',
+    'Update Profile' => 'Perbarui Profil',
+    'New Promo' => 'Promo Baru'
 ];
