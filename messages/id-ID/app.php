@@ -151,7 +151,10 @@ return [
     'Price Range' => 'Rentang Harga',
     'Price Min' => 'Harga Minimal',
     'Price Max' => 'Harga Maksimal',
+    'Above' => 'Di Atas',
+    'Under' => 'Di Bawah',
 
+    'Search Result' => 'Hasil Pencarian',
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
     'View Details' => 'Tampilkan Detail',
     'Forgot Password' => 'Lupa Password',
