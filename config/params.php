@@ -1,7 +1,6 @@
 <?php
 return [
-    'adminEmail' => 'meriz.works@gmail.com',
-    'supportEmail' => 'asikmakan.bandung@gmail.com',
+    'adminEmail' => 'meriz.works@gmail.com',    
     'user.passwordResetTokenExpire' => 3600,
 
     'currencyOptions' => '
