@@ -155,6 +155,9 @@ return [
     'Above' => 'Di Atas',
     'Under' => 'Di Bawah',
     
+    'Find Favourite Foods' => 'Cari Makanan Favorit',
+    'Find Specials & Discounts' => 'Cari Spesial & Diskon',
+    
     'Forgot Password' => 'Lupa Password',
     'Send Request' => 'Kirim Permintaan',
     'OR' => 'ATAU',
@@ -175,7 +178,6 @@ return [
     'Report' => 'Laporkan',
     'Booking' => 'Reservasi',
     'Special & Discount' => 'Spesial & Diskon',
-    'About' => 'Tentang',
     'Add Photo' => 'Tambah Foto',
     'Your Review' => 'Review Anda',
     'Write a Review' => 'Tulis Review',
