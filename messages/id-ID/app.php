@@ -188,7 +188,10 @@ return [
     'Data Not Available' => 'Data Belum Tersedia',
     'Photo Caption' => 'Judul Foto',
     'Currently there is no menu available' => 'Saat ini menu belum tersedia',
+    'Currently there is no photo available' => 'Saat ini foto belum tersedia',
     'Back to Place Detail' => 'Kembali ke Detail Tempat',
+    'Valid from {dateStart} until {dateEnd}' => 'Berlaku {dateStart} s/d {dateEnd}',
+    'Are you sure want to delete this photo?' => 'Anda yakin akan menghapus foto ini?',
     
     'View Details' => 'Tampilkan Detail',
     'Search Result' => 'Hasil Pencarian',
