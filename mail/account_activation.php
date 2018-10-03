@@ -2,8 +2,8 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $email */
-/* @var $full_name */
+/* @var $email frontend\controllers\SiteController */
+/* @var $full_name frontend\controllers\SiteController */
 /* @var $user core\models\User */
 
 $activationLink = Yii::$app->urlManager->createAbsoluteUrl(['site/activate-account', 'token' => $user->account_activation_token]); ?>
