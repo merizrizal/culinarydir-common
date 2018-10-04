@@ -192,6 +192,7 @@ return [
     'Add Photo' => 'Tambah Foto',
     'Your Review' => 'Review Anda',
     'Write a Review' => 'Tulis Review',
+    'Write a Comment' => 'Tuliskan Komentar',
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
     'See Map' => 'Lihat Peta',
     'Map' => 'Peta',
