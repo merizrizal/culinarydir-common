@@ -196,6 +196,7 @@ return [
     'Write a Comment' => 'Tuliskan Komentar',
     'Your Review' => 'Ulasan Anda',
     'Write a Review' => 'Tulis Ulasan',
+    'Share your experience here' => 'Bagikan pengalamanmu disini',
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
     'See Map' => 'Lihat Peta',
     'Map' => 'Peta',
