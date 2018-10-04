@@ -77,20 +77,20 @@ class LoginForm extends Model
             if (Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0)) {
 
                 $modelUser = User::find()
-                        ->joinWith([
-                            'userLevel',
-                        ])
-                        ->andWhere(['user.id' => Yii::$app->user->getIdentity()->id])
-                        ->asArray()->one();
+                    ->joinWith([
+                        'userLevel',
+                    ])
+                    ->andWhere(['user.id' => Yii::$app->user->getIdentity()->id])
+                    ->asArray()->one();
 
                 $data['user_level']['id'] = $modelUser['userLevel']['id'];
                 $data['user_level']['nama_level'] = $modelUser['userLevel']['nama_level'];
                 $data['user_level']['is_super_admin'] = $modelUser['userLevel']['is_super_admin'];
 
                 $userAkses = \core\models\UserAkses::find()
-                        ->joinWith(['userLevel', 'userAppModule'])
-                        ->andWhere(['user_akses.user_level_id' => $data['user_level']['id']])
-                        ->asArray()->all();
+                    ->joinWith(['userLevel', 'userAppModule'])
+                    ->andWhere(['user_akses.user_level_id' => $data['user_level']['id']])
+                    ->asArray()->all();
 
                 $data['user_level']['userAkses'] = $userAkses;
 
@@ -120,8 +120,10 @@ class LoginForm extends Model
             $validator = new \yii\validators\EmailValidator();
 
             if ($validator->validate($this->login_id)) {
+                
                 $this->_user = User::findByEmail($this->login_id);
             } else {
+                
                 $this->_user = User::findByUsername($this->login_id);
             }
         }
