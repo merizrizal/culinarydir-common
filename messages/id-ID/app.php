@@ -212,8 +212,7 @@ return [
     'Currently there is no photo available' => 'Saat ini foto belum tersedia',
     'Back to Place Detail' => 'Kembali ke Detail Tempat',
     'Valid from {dateStart} until {dateEnd}' => 'Berlaku {dateStart} s/d {dateEnd}',
-    'Are you sure want to delete this photo?' => 'Apakah Anda yakin akan menghapus foto ini?',
-    'Are you sure want to delete this review?' => 'Apakah Anda yakin akan menghapus ulasan ini?',
+    'Are you sure want to delete this?' => 'Apakah Anda yakin akan menghapus ini?',
     'This business:' => 'Bisnis ini:',
     'Tell about your situation or complaint.' => 'Ceritakan mengenai situasi atau keluhan anda.',
     
