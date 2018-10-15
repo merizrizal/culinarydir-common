@@ -160,6 +160,8 @@ return [
     
     'Forgot Password' => 'Lupa Password',
     'Change Password' => 'Ganti Passsword',
+    'Change Password Successful' => 'Ganti Passsword Berhasil',
+    'Update Profile Successful' => 'Update Profile Berhasil',
     'Current Password' => 'Password Sekarang',
     'Save' => 'Simpan',
     'New Password' => 'Password Baru',

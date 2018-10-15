@@ -1,12 +1,13 @@
 <?php
+
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 /* @var $email frontend\controllers\SiteController */
 /* @var $full_name frontend\controllers\SiteController */
-/* @var $user core\models\User */
+/* @var $userToken frontend\controllers\SiteController */
 
-$activationLink = Yii::$app->urlManager->createAbsoluteUrl(['site/activate-account', 'token' => $user->account_activation_token]); ?>
+$activationLink = Yii::$app->urlManager->createAbsoluteUrl(['site/activate-account', 'token' => $userToken]); ?>
 
 <div class="activation">
     <p>Hello <?= $full_name ?>,</p>
