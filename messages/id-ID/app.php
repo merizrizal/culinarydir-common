@@ -154,6 +154,7 @@ return [
     'Price Max' => 'Harga Maksimal',
     'Above' => 'Di Atas',
     'Under' => 'Di Bawah',
+    'Average Spending' => 'Biaya rata-rata',
     
     'Find Favourite Foods' => 'Cari Makanan Favorit',
     'Find Specials & Discounts' => 'Cari Spesial & Diskon',
@@ -183,7 +184,7 @@ return [
     'Please enter your email. Link for reset your password will be sent to your email.' => 'Silakan masukkan email Anda. Link untuk mereset password akan dikirim ke email Anda.',
     'Your new password has been saved' => 'Password baru Anda tersimpan.',
     'Please activate your account by clicking the link that we sent to your email at {email}.' => 'Silakan aktivasi akun Anda dengan mengklik link yang sudah kami kirimkan ke email Anda di {email}',
-    'Please login with your Email / Username by clicking the link below.' => 'Silakan masuk dengan Email / Username Anda dengan mengklik link di bawah.',
+    'Please login with your Email / Username by clicking the button below.' => 'Silakan masuk dengan Email / Username Anda dengan mengklik tombol di bawah.',
     'Please enter your new password.' => 'Silakan masukkan password baru Anda.',
     'Hello' => 'Halo',
     
