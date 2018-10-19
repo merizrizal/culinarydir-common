@@ -199,11 +199,10 @@ return [
     'Special & Discount' => 'Spesial & Diskon',
     'Review' => 'Ulasan',
     'Add Photo' => 'Tambah Foto',
-    'Your Review' => 'Ulasan Anda',
-    'Write a Review' => 'Tulis Ulasan',
     'Write a Comment' => 'Tuliskan Komentar',
     'Your Review' => 'Ulasan Anda',
     'Write a Review' => 'Tulis Ulasan',
+    'Share your experience here' => 'Bagikan pengalaman anda di sini',
     'What do you like about this place? Criticism and suggestions for improvement?' => 'Apa yang anda suka dari tempat ini? Kritik dan saran untuk perbaikan?',
     'Drag and drop photos here. Maximum upload of 10 photos, maximum size 2 Mb/photo' => 'Tarik dan lepaskan foto di sini. Upload maximum 10 foto, ukuran maximum 2 Mb/foto',
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
@@ -230,5 +229,7 @@ return [
     'New Promo' => 'Promo Baru',
     'Delete' => 'Hapus',
     'Cancel' => 'Batal',
-    'Confirmation' => 'Konfirmasi'
+    'Confirmation' => 'Konfirmasi',
+    
+    'Coming Soon' => 'Segera Hadir'
 ];
