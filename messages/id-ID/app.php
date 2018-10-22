@@ -154,7 +154,7 @@ return [
     'Price Max' => 'Harga Maksimal',
     'Above' => 'Di Atas',
     'Under' => 'Di Bawah',
-    'Average Spending' => 'Biaya rata-rata',
+    'Average Spending' => 'Biaya Rata-Rata',
     
     'Find Favourite Foods' => 'Cari Makanan Favorit',
     'Find Specials & Discounts' => 'Cari Spesial & Diskon',
