@@ -46,43 +46,6 @@ $activationLink = Yii::$app->urlManager->createAbsoluteUrl(['site/activate-accou
                                         </tbody>
                                     </table>
 
-                                    <table align="center" class="wrapper bg-status-bar" style="background-color:#2196F3;border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
-                                        <tbody>
-                                            <tr style="padding:0;text-align:left;vertical-align:top">
-                                                <td class="wrapper-inner" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:19px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
-                                                    <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
-                                                        <tbody>
-                                                            <tr style="padding:0;text-align:left;vertical-align:top">
-                                                                <th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:10px;padding-left:20px;padding-right:20px;text-align:left;width:560px">
-                                                                    <table style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
-                                                                        <tbody>
-                                                                            <tr style="padding:0;text-align:left;vertical-align:top">
-                                                                                <th style="margin:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0;text-align:left">
-                                                                                    <table class="spacer" style="border-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%">
-                                                                                        <tbody>
-                                                                                            <tr style="padding:0;text-align:left;vertical-align:top">
-                                                                                                <td height="10px" style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">&nbsp;</td>
-                                                                                            </tr>
-                                                                                        </tbody>
-                                                                                    </table>
-
-                                                                                    <p class="text-center status-text" style="margin:0;color:#fff;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;line-height:19px;margin:0!important;padding:0;text-align:center">
-                                                                                        <strong>Aktivasi akun <?= Yii::$app->name ?> anda sekarang</strong>
-                                                                                    </p>
-                                                                                </th>
-                                                                                <th class="expander" style="margin:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
-                                                                            </tr>
-                                                                        </tbody>
-                                                                    </table>
-                                                                </th>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-
                                     <table class="row" style="border-collapse:collapse;border-spacing:0;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
                                         <tbody>
                                             <tr style="padding:0;text-align:left;vertical-align:top">
@@ -164,6 +127,8 @@ $activationLink = Yii::$app->urlManager->createAbsoluteUrl(['site/activate-accou
                                                                         Untuk informasi lebih lanjut, silahkan hubungi:
                                                                         <br />
                                                                         email: <a class="link" href="mailto:<?= Yii::$app->params['supportEmail'] ?>" style="margin:0;color:#00B4ED;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><?= Yii::$app->params['supportEmail'] ?></a> | phone: (+62) 811 210 9954
+                                                                        <br />
+                                                                        &copy; <?= Yii::$app->formatter->asDate(time(), 'yyyy') ?> <a href="<?= Yii::$app->urlManager->createAbsoluteUrl('') ?>">Asikmakan.com</a>, All Rights Reserved
                                                                     </p>
                                                                 </th>
                                                                 <th class="expander" style="margin:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
