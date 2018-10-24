@@ -55,7 +55,7 @@ return [
     'Delete process is fail. Data fail to delete' => 'Proses delete gagal. Data gagal dihapus',
 
     'Parent ID' => 'ID Induk',
-    'Name'=> 'Nama',
+    'Name' => 'Nama',
     'Note' => 'Keterangan',
     'Order' => 'Urutan',
     'Date' => 'Tanggal',
@@ -231,5 +231,6 @@ return [
     'Cancel' => 'Batal',
     'Confirmation' => 'Konfirmasi',
     
-    'Coming Soon' => 'Segera Hadir'
+    'Coming Soon' => 'Segera Hadir',
+    'Search menu category here' => 'Cari kategori menu disini'
 ];
