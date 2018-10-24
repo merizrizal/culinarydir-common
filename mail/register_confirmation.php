@@ -16,7 +16,7 @@ use yii\helpers\Html;
                         <tbody>
                             <tr style="padding:0;text-align:left;vertical-align:top">
                                 <td style="-moz-hyphens:auto;-webkit-hyphens:auto;margin:0;border-collapse:collapse!important;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:19px;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word">
-                                    <table class="row header" style="border-collapse:collapse;border-spacing:0;border-top:6px solid #e6e6e6;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%">
+                                    <table class="row header" style="border-collapse:collapse;border-spacing:0;border-top:6px solid #e6e6e6;display:table;padding:0;position:relative;text-align:left;vertical-align:top;width:100%;background-color:#00001E">
                                         <tbody>
                                             <tr style="padding:0;text-align:left;vertical-align:top">
                                                 <th class="small-12 large-12 columns first last" style="margin:0 auto;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0 auto;padding:0;padding-bottom:10px;padding-left:20px;padding-right:20px;text-align:left;width:560px">
