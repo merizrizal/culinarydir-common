@@ -131,6 +131,7 @@ return [
     'Short Description' => 'Deskripsi Singkat',
     'Date Start' => 'Tanggal Mulai',
     'Date End' => 'Tanggal Berakhir',
+    'Position' => 'Jabatan',
 
     'Open' => 'Buka',
     'Closed' => 'Tutup',
