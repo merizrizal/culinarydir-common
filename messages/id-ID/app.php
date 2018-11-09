@@ -82,6 +82,7 @@ return [
     'First Name' => 'Nama Depan',
     'Last Name' => 'Nama Belakang',
     'About Me' => 'Tentang Saya',
+    'Contact Person' => 'Narahubung',
     'Contact' => 'Kontak',
     'Primary Contact' => 'Kontak Utama',
     'Is Primary Contact' => 'Kontak Utama',
