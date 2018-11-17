@@ -72,7 +72,13 @@ return [
     'Business Location' => 'Lokasi Bisnis',
     'Photo' => 'Foto',
     'Back To Home Page' => 'Kembali Ke Halaman Utama',
-
+    
+    'Food' => 'Makanan',
+    'Service' => 'Pelayanan',
+    'Atmosphere' => 'Suasana',
+    'Cleanliness' => 'Kebersihan',
+    'Value' => 'Harga : Rasa',
+    
     'User' => 'User',
     'User Level ID' => 'ID Level User',
     'Full Name' => 'Nama Lengkap',
