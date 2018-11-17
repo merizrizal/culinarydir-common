@@ -141,7 +141,7 @@ return [
     '24 Hours' => '24 Jam',
     'Time Open' => 'Jam Buka',
     'Time Close' => 'Jam Tutup',
-    'Operational Hours' => 'Jam operasional',
+    'Operational Hours' => 'Jam Operasional',
 
     'Monday' => 'Senin',
     'Tuesday' => 'Selasa',
