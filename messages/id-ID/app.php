@@ -77,7 +77,7 @@ return [
     'Service' => 'Pelayanan',
     'Atmosphere' => 'Suasana',
     'Cleanliness' => 'Kebersihan',
-    'Value' => 'Harga : Rasa',
+    'Value' => 'Kepuasan',
     
     'User' => 'User',
     'User Level ID' => 'ID Level User',
