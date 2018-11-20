@@ -200,7 +200,7 @@ return [
     
     'Ambience' => 'Suasana',
     'Report' => 'Laporkan',
-    'Booking' => 'Reservasi',
+    'Online Order' => 'Pesan Online',
     'Close' => 'Tutup',
     'Submit' => 'Kirim',
     'Moved' => 'Pindah',
