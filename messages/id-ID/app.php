@@ -77,7 +77,7 @@ return [
     'Service' => 'Pelayanan',
     'Atmosphere' => 'Suasana',
     'Cleanliness' => 'Kebersihan',
-    'Value' => 'Harga : Rasa',
+    'Value' => 'Kepuasan',
     
     'User' => 'User',
     'User Level ID' => 'ID Level User',
@@ -200,7 +200,7 @@ return [
     
     'Ambience' => 'Suasana',
     'Report' => 'Laporkan',
-    'Booking' => 'Reservasi',
+    'Online Order' => 'Pesan Online',
     'Close' => 'Tutup',
     'Submit' => 'Kirim',
     'Moved' => 'Pindah',
