@@ -245,6 +245,7 @@ return [
     'Your order list is empty' => 'Daftar pesanan anda kosong',
     'Total Order' => 'Total Pemesanan',
     'Write a Note' => 'Tuliskan Keterangan',
+    'Go to Checkout' => 'Lanjut ke Checkout',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini'
