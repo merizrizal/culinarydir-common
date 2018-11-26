@@ -12,7 +12,7 @@ function drawCustomicheck(thisObj) {
 	} else if (thisObj.attr('type') == 'radio') {
 		
 		var name = thisObj.attr('name');
-		var inputs = $('input[name=' + name + ']');
+		var inputs = $('input[name="' + name + '"]');
 		
 		inputs.each(function() {
 			
@@ -27,7 +27,7 @@ function drawCustomicheck(thisObj) {
 	}
 }
 
-var inputs = $('input[type=checkbox], input[type=radio]');
+var inputs = $('input[type="checkbox"], input[type="radio"]');
 
 inputs.each(function() {
 	
