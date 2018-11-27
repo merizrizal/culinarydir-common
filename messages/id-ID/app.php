@@ -246,6 +246,7 @@ return [
     'Total Order' => 'Total Pemesanan',
     'Write a Note' => 'Tuliskan Keterangan',
     'Go to Checkout' => 'Lanjut ke Checkout',
+    'Order' => 'Pesan Ini',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini'
