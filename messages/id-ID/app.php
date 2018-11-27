@@ -243,10 +243,10 @@ return [
     'Order List' => 'Daftar Pesanan',
     'Amount' => 'Jumlah',
     'Your order list is empty' => 'Daftar pesanan anda kosong',
-    'Total Order' => 'Total Pemesanan',
     'Write a Note' => 'Tuliskan Keterangan',
     'Go to Checkout' => 'Lanjut ke Checkout',
     'Order This' => 'Pesan Ini',
+    'Order Now' => 'Pesan Sekarang',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini'
