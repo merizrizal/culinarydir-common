@@ -248,7 +248,6 @@ return [
     'Order Detail' => 'Detail Pesanan',
     'Order This' => 'Pesan Ini',
     'Order Now' => 'Pesan Sekarang',
-    'Amount' => 'Jumlah',
     'Back to Order List' => 'Kembali ke Daftar Pesanan',
     
     'Coming Soon' => 'Segera Hadir',
