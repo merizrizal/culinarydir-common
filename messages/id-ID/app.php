@@ -249,6 +249,7 @@ return [
     'Order This' => 'Pesan Ini',
     'Order Now' => 'Pesan Sekarang',
     'Back to Order List' => 'Kembali ke Daftar Pesanan',
+    'Order History' => 'Riwayat Pesanan',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini'
