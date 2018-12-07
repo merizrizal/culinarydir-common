@@ -166,8 +166,8 @@ return [
     'Under' => 'Di Bawah',
     'Average Spending' => 'Biaya Rata-Rata',
     
-    'Find Favourite Foods' => 'Cari Makanan Favorit',
-    'Find Specials & Discounts' => 'Cari Spesial & Diskon',
+    'Find Favourite Foods?' => 'Cari Makanan Favorit?',
+    'Find Specials & Discounts?' => 'Cari Spesial & Diskon?',
     
     'Forgot Password' => 'Lupa Password',
     'Change Password' => 'Ganti Passsword',
