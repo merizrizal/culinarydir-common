@@ -240,15 +240,10 @@ return [
     'Delete' => 'Hapus',
     'Cancel' => 'Batal',
     'Confirmation' => 'Konfirmasi',
-    'Order List' => 'Daftar Pesanan', // depreciated version 2.1.1.3
     'Amount' => 'Jumlah',
-    'Your order list is empty' => 'Daftar pesanan anda kosong', // depreciated version 2.1.1.3
     'Write a Note' => 'Tuliskan Keterangan',
-    'Go to Checkout' => 'Lanjut ke Checkout', // depreciated version 2.1.1.3
-    'Order Detail' => 'Detail Pesanan', // depreciated version 2.1.1.3
     'Order This' => 'Pesan Ini',
     'Order Now' => 'Pesan Sekarang',
-    'Back to Order List' => 'Kembali ke Daftar Pesanan', // depreciated version 2.1.1.3
     'Order History' => 'Riwayat Pesanan',
     'Order Confirmation' => 'Konfirmasi Pesanan',
     'Continue Ordering' => 'Lanjutkan Pemesanan',
