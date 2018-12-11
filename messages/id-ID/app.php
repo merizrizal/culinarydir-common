@@ -242,11 +242,13 @@ return [
     'Confirmation' => 'Konfirmasi',
     'Amount' => 'Jumlah',
     'Write a Note' => 'Tuliskan Keterangan',
+    'Order List' => 'Daftar Pesanan',
     'Order This' => 'Pesan Ini',
     'Order Now' => 'Pesan Sekarang',
     'Order History' => 'Riwayat Pesanan',
     'Order Confirmation' => 'Konfirmasi Pesanan',
     'Continue Ordering' => 'Lanjutkan Pemesanan',
+    'You don\'t Have Any Order Histories Right Now' => 'Saat Ini Anda Tidak Memiliki Riwayat Pesanan',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini'
