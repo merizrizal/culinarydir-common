@@ -251,7 +251,7 @@ return [
     'Back to Order List' => 'Kembali ke Daftar Pesanan', // depreciated version 2.1.1.3
     'Order History' => 'Riwayat Pesanan',
     'Order Confirmation' => 'Konfirmasi Pesanan',
-    'Continue ordering' => 'Lanjutkan pemesanan',
+    'Continue Ordering' => 'Lanjutkan Pemesanan',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini'
