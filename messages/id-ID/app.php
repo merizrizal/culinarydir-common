@@ -247,6 +247,7 @@ return [
     'Order History' => 'Riwayat Pesanan',
     'Order Confirmation' => 'Konfirmasi Pesanan',
     'Continue Ordering' => 'Lanjutkan Pemesanan',
+    'Your order list is empty' => 'Daftar pesanan anda kosong',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini'
