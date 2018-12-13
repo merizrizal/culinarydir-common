@@ -250,6 +250,8 @@ return [
     'Continue Ordering' => 'Lanjutkan Pemesanan',
     'You don\'t Have Any Order Histories Right Now' => 'Saat Ini Anda Tidak Memiliki Riwayat Pesanan',
     'Your order list is empty' => 'Daftar pesanan anda kosong',
+    'Back To Profile' => 'Kembali Ke Profil',
+    'Order Details' => 'Detail Pesanan',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini'
