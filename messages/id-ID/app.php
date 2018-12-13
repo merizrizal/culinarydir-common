@@ -168,6 +168,7 @@ return [
     
     'Find Favourite Foods?' => 'Cari Makanan Favorit?',
     'Find Specials & Discounts?' => 'Cari Spesial & Diskon?',
+    'Want to Order Online?' => 'Mau Pesan Online?',
     
     'Forgot Password' => 'Lupa Password',
     'Change Password' => 'Ganti Passsword',
