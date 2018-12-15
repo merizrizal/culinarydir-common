@@ -251,6 +251,8 @@ return [
     'Continue Ordering' => 'Lanjutkan Pemesanan',
     'You don\'t Have Any Order Histories Right Now' => 'Saat Ini Anda Tidak Memiliki Riwayat Pesanan',
     'Your order list is empty' => 'Daftar pesanan anda kosong',
+    'Business Product Category ID' => 'ID Kategori Produk Bisnis',
+    'Product Category' => 'Kategori Produk',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini'
