@@ -253,6 +253,8 @@ return [
     'Back To Profile' => 'Kembali Ke Profil',
     'Order Details' => 'Detail Pesanan',
     'Reorder' => 'Pesan Lagi',
+    'Business Product Category ID' => 'ID Kategori Produk Bisnis',
+    'Product Category' => 'Kategori Produk',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini'
