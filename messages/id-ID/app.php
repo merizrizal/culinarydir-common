@@ -250,6 +250,7 @@ return [
     'Order Confirmation' => 'Konfirmasi Pesanan',
     'Continue Ordering' => 'Lanjutkan Pemesanan',
     'Your order list is empty' => 'Daftar pesanan anda kosong',
+    'Please order the item you want first' => 'Silakan pesan dahulu menu yang anda inginkan',
     'Back To Profile' => 'Kembali Ke Profil',
     'Order Details' => 'Detail Pesanan',
     'Reorder' => 'Pesan Lagi',
