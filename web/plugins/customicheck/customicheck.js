@@ -27,17 +27,22 @@ function drawCustomicheck(thisObj) {
 	}
 }
 
-var inputs = $('input[type="checkbox"], input[type="radio"]');
+function initCustomicheck() {
+	
+	var inputs = $('input[type="checkbox"], input[type="radio"]');
 
-inputs.each(function() {
-	
-	$(this).wrap('<div class="custom-i-check custom-i-' + $(this).attr("type") + '"></div>');
-	$(this).before('<span class="fa fa-check"></span>');
-	
-	drawCustomicheck($(this));
-});
+	inputs.each(function() {
+		
+		$(this).wrap('<div class="custom-i-check custom-i-' + $(this).attr("type") + '"></div>');
+		$(this).before('<span class="fa fa-check"></span>');
+		
+		drawCustomicheck($(this));
+	});
 
-inputs.on('change', function() {
-	
-	drawCustomicheck($(this));
-});
+	inputs.on('change', function() {
+		
+		drawCustomicheck($(this));
+	});
+}
+
+initCustomicheck();
