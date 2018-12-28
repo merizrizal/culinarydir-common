@@ -258,5 +258,7 @@ return [
     'Product Category' => 'Kategori Produk',
     
     'Coming Soon' => 'Segera Hadir',
-    'Search menu category here' => 'Cari kategori menu disini'
+    'Search menu category here' => 'Cari kategori menu disini',
+    'Today' => 'Hari ini',
+    'See more' => 'Lihat lebih lanjut'
 ];
