@@ -260,5 +260,8 @@ return [
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini',
     'Today' => 'Hari ini',
-    'See more' => 'Lihat lebih lanjut'
+    
+    'Payment Methods' => 'Metode Pembayaran',
+    'Payment Name' => 'Nama Pembayaran',
+    'Method' => 'Metode'
 ];
