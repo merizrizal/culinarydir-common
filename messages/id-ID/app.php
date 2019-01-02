@@ -263,5 +263,8 @@ return [
     
     'Payment Methods' => 'Metode Pembayaran',
     'Payment Name' => 'Nama Pembayaran',
-    'Method' => 'Metode'
+    'Method' => 'Metode',
+    
+    'Delivery Methods' => 'Metode Pengiriman',
+    'Delivery Name' => 'Nama Pengiriman'
 ];
