@@ -266,5 +266,8 @@ return [
     'Method' => 'Metode',
     
     'Delivery Methods' => 'Metode Pengiriman',
-    'Delivery Name' => 'Nama Pengiriman'
+    'Delivery Name' => 'Nama Pengiriman',
+    
+    'Help Centre' => 'Pusat Bantuan',
+    'About Us' => 'Tentang Kami',
 ];
