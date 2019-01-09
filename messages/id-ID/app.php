@@ -256,6 +256,7 @@ return [
     'Reorder' => 'Pesan Lagi',
     'Business Product Category ID' => 'ID Kategori Produk Bisnis',
     'Product Category' => 'Kategori Produk',
+    'Add Notes to Seller (Optional)' => 'Tuliskan keterangan tambahan untuk penjual (Opsional)',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini',
