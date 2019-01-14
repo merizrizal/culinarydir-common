@@ -224,6 +224,8 @@ return [
     'Photo Caption' => 'Judul Foto',
     'Currently there is no menu available' => 'Saat ini menu belum tersedia',
     'Currently there is no photo available' => 'Saat ini foto belum tersedia',
+    'Currently there is no delivery method available in' => 'Saat ini metode pengiriman belum tersedia di',
+    'Currently there is no payment method available in' => 'Saat ini metode pembayaran belum tersedia di',
     'Back to Place Detail' => 'Kembali ke Detail Tempat',
     'Valid from {dateStart} until {dateEnd}' => 'Berlaku {dateStart} s/d {dateEnd}',
     'Are you sure want to delete this?' => 'Apakah Anda yakin akan menghapus ini?',
@@ -257,6 +259,7 @@ return [
     'Business Product Category ID' => 'ID Kategori Produk Bisnis',
     'Product Category' => 'Kategori Produk',
     'Add Notes to Seller (Optional)' => 'Tuliskan keterangan tambahan untuk penjual (Opsional)',
+    'Order Information' => 'Keterangan Pemesanan',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini',
