@@ -262,7 +262,7 @@ return [
     'Reorder' => 'Pesan Lagi',
     'Business Product Category ID' => 'ID Kategori Produk Bisnis',
     'Product Category' => 'Kategori Produk',
-    'Add Notes to Seller (Optional)' => 'Tuliskan keterangan tambahan untuk penjual (Opsional jika perlu): Tuliskan keterangan tambahan untuk penjual seperti alamat pengiriman atau jam pengambilan',
+    'Add Notes to Seller (Optional)' => '(Opsional jika perlu): Tuliskan keterangan tambahan untuk penjual seperti alamat pengiriman atau jam pengambilan',
     'Order Information' => 'Keterangan Pemesanan',
     
     'Coming Soon' => 'Segera Hadir',
