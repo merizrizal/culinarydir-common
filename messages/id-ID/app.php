@@ -7,6 +7,10 @@ return [
     '{delta, plural, =1{a second} other{# seconds}} ago' => '{delta, plural, =1{satu detik} other{# detik}} lalu',
     '{delta, plural, =1{a year} other{# years}} ago' => '{delta, plural, =1{satu tahun} other{# tahun}} lalu',
     '{delta, plural, =1{an hour} other{# hours}} ago' => '{delta, plural, =1{satu jam} other{# jam}} lalu',
+    
+    'favorite' => 'favorit',
+    'promo' => 'promo',
+    'online-order' => 'pesan-online',
 
     'Welcome' => 'Selamat Datang',
     'Main Menu' => 'Menu Utama',
@@ -258,7 +262,7 @@ return [
     'Reorder' => 'Pesan Lagi',
     'Business Product Category ID' => 'ID Kategori Produk Bisnis',
     'Product Category' => 'Kategori Produk',
-    'Add Notes to Seller (Optional)' => 'Tuliskan keterangan tambahan untuk penjual (Opsional)',
+    'Add Notes to Seller (Optional)' => 'Tuliskan keterangan tambahan untuk penjual (Opsional jika perlu): Tuliskan keterangan tambahan untuk penjual seperti alamat pengiriman atau jam pengambilan',
     'Order Information' => 'Keterangan Pemesanan',
     
     'Coming Soon' => 'Segera Hadir',
