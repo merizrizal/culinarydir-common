@@ -264,7 +264,7 @@ return [
     'Product Category' => 'Kategori Produk',
     'Add Notes to Seller (Optional)' => '(Opsional jika perlu): Tuliskan keterangan tambahan untuk penjual seperti alamat pengiriman atau jam pengambilan',
     'Order Information' => 'Keterangan Pemesanan',
-    'If Payment Is Made by Transfer or Online, Please Send a Screenshot of Proof of Payment' => 'Jika Pembayaran Dilakukan Secara Transfer atau Online, Mohon Kirim Screenshot Bukti Pembayaran',
+    'If payment is made by transfer or online, please send a screenshot of proof of payment' => 'Jika pembayaran dilakukan secara transfer atau online, mohon kirim screenshot bukti pembayaran',
     
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini',
