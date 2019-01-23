@@ -80,7 +80,7 @@ class LoginForm extends Model
             $validate = $this->validate();
         }
 
-        if ($validate && !($notActive = $this->getUser()->not_active)) {
+        if ($validate && !empty($this->getUser()) && !($notActive = $this->getUser()->not_active)) {
             
             if (Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0)) {
 
