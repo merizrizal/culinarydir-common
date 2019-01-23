@@ -14,6 +14,9 @@ class LoginForm extends Model
     public $password;
     public $rememberMe = true;
     public $useSocmed = false;
+    
+    public $useToken = false;
+    public $token;
 
     private $_user = false;
 
@@ -72,7 +75,7 @@ class LoginForm extends Model
         $notActive = false;
         $validate = true;
 
-        if (!$this->useSocmed) {
+        if (!$this->useSocmed && !$this->useToken) {
             
             $validate = $this->validate();
         }
@@ -122,15 +125,21 @@ class LoginForm extends Model
     public function getUser()
     {
         if ($this->_user === false) {
-
-            $validator = new \yii\validators\EmailValidator();
-
-            if ($validator->validate($this->login_id)) {
+            
+            if ($this->useToken) {
                 
-                $this->_user = User::findByEmail($this->login_id);
+                $this->_user = User::findIdentityByAccessToken($this->token);
             } else {
-                
-                $this->_user = User::findByUsername($this->login_id);
+
+                $validator = new \yii\validators\EmailValidator();
+    
+                if ($validator->validate($this->login_id)) {
+                    
+                    $this->_user = User::findByEmail($this->login_id);
+                } else {
+                    
+                    $this->_user = User::findByUsername($this->login_id);
+                }
             }
         }
 
