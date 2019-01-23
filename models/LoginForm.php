@@ -52,8 +52,11 @@ class LoginForm extends Model
     public function validatePassword($attribute, $params)
     {
         if (!$this->hasErrors()) {
+            
             $user = $this->getUser();
+            
             if (!$user || !$user->validatePassword($this->password)) {
+                
                 $this->addError($attribute, 'Email / Username atau password salah.');
             }
         }
@@ -70,10 +73,12 @@ class LoginForm extends Model
         $validate = true;
 
         if (!$this->useSocmed) {
+            
             $validate = $this->validate();
         }
 
         if ($validate && !($notActive = $this->getUser()->not_active)) {
+            
             if (Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0)) {
 
                 $modelUser = User::find()
@@ -101,6 +106,7 @@ class LoginForm extends Model
         } else {
 
             if ($notActive) {
+                
                 $this->addError('login_id', 'This user is not active');
             }
 
