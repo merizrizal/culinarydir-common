@@ -60,7 +60,7 @@ class LoginForm extends Model
             
             if (!$user || !$user->validatePassword($this->password)) {
                 
-                $this->addError($attribute, 'Email / Username atau password salah.');
+                $this->addError($attribute, 'Email / Username atau Password salah.');
             }
         }
     }
