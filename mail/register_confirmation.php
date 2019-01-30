@@ -3,9 +3,13 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $email frontend\controllers\SiteController */
-/* @var $full_name frontend\controllers\SiteController */
-/* @var $socmed frontend\controllers\SiteController */ ?>
+/* @var $email string */
+/* @var $full_name string */
+/* @var $socmed string */
+/* @var $isFromApi bool */
+
+$baseUrl = Yii::$app->urlManager->createAbsoluteUrl('');
+$baseUrl = !empty($isFromApi) ? str_replace('/api/', '', $baseUrl) : $baseUrl; ?>
 
 <table class="body" style="margin:0;background:#f3f3f3;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:19px;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
     <tbody>
@@ -32,7 +36,7 @@ use yii\helpers\Html;
                                                                         </tbody>
                                                                     </table>
 
-                                                                    <?= Html::img(Yii::$app->urlManager->createAbsoluteUrl(['media/img/asikmakan-logo.png']), ['class' => 'img-responsive img-component', 'style' => 'height: 30px; margin-top: 5px;']); ?>
+                                                                    <?= Html::img($baseUrl . '/media/img/asikmakan-logo.png', ['class' => 'img-responsive img-component', 'style' => 'height: 30px; margin-top: 5px;']); ?>
                                                                     
                                                                 </th>
                                                                 <th class="expander" style="margin:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
@@ -123,7 +127,7 @@ use yii\helpers\Html;
                                                                         <br />
                                                                         email: <a class="link" href="mailto:<?= Yii::$app->params['supportEmail'] ?>" style="margin:0;color:#00B4ED;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:none"><?= Yii::$app->params['supportEmail'] ?></a> | phone: (+62) 811 210 9954
                                                                         <br />
-                                                                        &copy; <?= Yii::$app->formatter->asDate(time(), 'yyyy') ?> <a href="<?= Yii::$app->urlManager->createAbsoluteUrl('') ?>">Asikmakan.com</a>, All Rights Reserved
+                                                                        &copy; <?= Yii::$app->formatter->asDate(time(), 'yyyy') ?> <a href="<?= $baseUrl ?>">Asikmakan.com</a>, All Rights Reserved
                                                                     </p>
                                                                 </th>
                                                                 <th class="expander" style="margin:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
