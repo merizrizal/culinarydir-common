@@ -280,6 +280,8 @@ return [
     'Delivery Methods' => 'Metode Pengiriman',
     'Delivery Name' => 'Nama Pengiriman',
     
+    'Update Marketing Information' => 'Update Informasi Marketing',
+    
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
 ];
