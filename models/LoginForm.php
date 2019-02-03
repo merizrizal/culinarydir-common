@@ -110,7 +110,7 @@ class LoginForm extends Model
 
             if ($notActive) {
                 
-                $this->addError('login_id', 'This user is not active');
+                $this->addError('login_id', Yii::t('app', 'This user is not active'));
             }
 
             return false;

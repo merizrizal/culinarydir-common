@@ -8,6 +8,8 @@ return [
     '{delta, plural, =1{a year} other{# years}} ago' => '{delta, plural, =1{satu tahun} other{# tahun}} lalu',
     '{delta, plural, =1{an hour} other{# hours}} ago' => '{delta, plural, =1{satu jam} other{# jam}} lalu',
     
+    'This user is not active' => 'Akun ini tidak aktif',
+    
     'favorite' => 'favorit',
     'promo' => 'promo',
     'online-order' => 'pesan-online',
