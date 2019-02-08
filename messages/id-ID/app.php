@@ -281,6 +281,7 @@ return [
     'Delivery Name' => 'Nama Pengiriman',
     
     'Update Marketing Information' => 'Update Informasi Marketing',
+    'Product Order' => 'Urutan Menu',
     
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
