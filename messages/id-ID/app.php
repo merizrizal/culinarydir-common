@@ -38,6 +38,8 @@ return [
 
     'More Detail' => 'Detail Lainnya',
     'Add' => 'Tambah',
+    
+    'Next' => 'Selanjutnya',
 
     'KPI by Sales Consultant' => 'KPI Konsultan',
     'KPI by Month' => 'KPI Bulanan',
@@ -199,8 +201,13 @@ return [
     'Request Password Reset' => 'Permintaan Reset Password',
     'Check your email for further instructions' => 'Periksa email Anda untuk instruksi lebih lanjut',
     'An error has occurred while requesting password reset' => 'Terjadi kesalahan saat meminta pengaturan ulang kata sandi',
-    'Please enter your email. Link for reset your password will be sent to your email.' => 'Silakan masukkan email Anda. Link untuk mereset password akan dikirim ke email Anda.',
+    'Please enter your email.' => 'Silakan masukkan email Anda.',
     'Your new password has been saved' => 'Password baru Anda tersimpan.',
+    'We have sent a verification code to' => 'Kami telah mengirimkan kode verifikasi ke',
+    'Verification' => 'Verifikasi',
+    'Verification Code' => 'Kode Verifikasi',
+    'Wrong verification code' => 'Kode verifikasi salah',
+    'Please check.' => 'Silakan cek.',
     'Please activate your account by clicking the link that we sent to your email at {email}.' => 'Silakan aktivasi akun Anda dengan mengklik link yang sudah kami kirimkan ke email Anda di {email}',
     'Please login with your Email / Username by clicking the button below.' => 'Silakan masuk dengan Email / Username Anda dengan mengklik tombol di bawah.',
     'Please enter your new password.' => 'Silakan masukkan password baru Anda.',

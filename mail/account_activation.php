@@ -9,9 +9,9 @@ use yii\helpers\Html;
 /* @var $isFromApi bool */
 
 $baseUrl = Yii::$app->urlManager->createAbsoluteUrl('');
-$baseUrl = !empty($isFromApi) ? str_replace('/api/', '', $baseUrl) : $baseUrl;
+$baseUrl = !empty($isFromApi) ? str_replace('api/', '', $baseUrl) : $baseUrl;
 
-$activationLink = $baseUrl . '/site/activate-account?token=' . $userToken; ?>
+$activationLink = $baseUrl . 'site/activate-account?token=' . $userToken; ?>
 
 <table class="body" style="margin:0;background:#f3f3f3;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:19px;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
     <tbody>
@@ -38,7 +38,7 @@ $activationLink = $baseUrl . '/site/activate-account?token=' . $userToken; ?>
                                                                         </tbody>
                                                                     </table>
 
-                                                                    <?= Html::img($baseUrl . '/media/img/asikmakan-logo.png', ['class' => 'img-responsive img-component', 'style' => 'height: 30px; margin-top: 5px;']); ?>
+                                                                    <?= Html::img($baseUrl . 'media/img/asikmakan-logo.png', ['class' => 'img-responsive img-component', 'style' => 'height: 30px; margin-top: 5px;']); ?>
                                                                     
                                                                 </th>
                                                                 <th class="expander" style="margin:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
