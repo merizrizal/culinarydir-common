@@ -73,10 +73,13 @@ $activationLink = $baseUrl . 'site/activate-account?token=' . $userToken; ?>
                                                                         Anda telah melakukan registrasi di <?= Yii::$app->name ?> dengan email <?= $email ?>.
                                                                         <br />
                                                                         <br />
-                                                                        Silahkan mengaktivasi akun anda dengan mengklik link di bawah ini:
+                                                                        Silahkan mengaktivasi akun anda dengan mengklik tombol di bawah ini:
                                                                         <br />
                                                                         <br />
-                                                                        <?= Html::a(Html::encode($activationLink), $activationLink) ?>
+                                                                        <?= Html::a(Yii::t('app', 'Activate This Account'), $activationLink, ['style' => 'Margin:0;background:#e73b3b;border-radius:4px;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:24px;margin:0;padding:8px;text-align:center;text-decoration:none']) ?>
+                                                                        <br /><br />
+                                                                        Salam,<br />
+																		Asikmakan
                                                                     </p>
                                                                 </th>
                                                                 <th class="expander" style="margin:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>

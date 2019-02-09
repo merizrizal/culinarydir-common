@@ -72,7 +72,10 @@ $resetLink = $baseUrl . 'site/reset-password?user=' . $user->email . '&token=' .
                                                                         <br />
                                                                         Atau dengan mengklik link di bawah ini:
                                                                         <br /><br />
-                                                                        <?= Html::a(Html::encode($resetLink), $resetLink) ?>
+                                                                        <?= Html::a('Reset Password', $resetLink, ['style' => 'Margin:0;background:#e73b3b;border-radius:4px;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:24px;margin:0;padding:8px;text-align:center;text-decoration:none']) ?>
+                                                                        <br /><br />
+                                                                        Salam,<br />
+																		Asikmakan
                                                                     </p>
                                                                 </th>
                                                                 <th class="expander" style="margin:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>

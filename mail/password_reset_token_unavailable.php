@@ -1,15 +1,13 @@
 <?php
-
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $email string */
-/* @var $full_name string */
-/* @var $socmed string */
-/* @var $isFromApi bool */
+/* @var $user core\models\User */
 
 $baseUrl = Yii::$app->urlManager->createAbsoluteUrl('');
-$baseUrl = !empty($isFromApi) ? str_replace('api/', '', $baseUrl) : $baseUrl; ?>
+$baseUrl = !empty($isFromApi) ? str_replace('api/', '', $baseUrl) : $baseUrl;
+
+$registerLink = $baseUrl . 'site/register'; ?>
 
 <table class="body" style="margin:0;background:#f3f3f3;border-collapse:collapse;border-spacing:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-height:19px;margin:0;padding:0;text-align:left;vertical-align:top;width:100%">
     <tbody>
@@ -65,13 +63,12 @@ $baseUrl = !empty($isFromApi) ? str_replace('api/', '', $baseUrl) : $baseUrl; ?>
                                                                     </table>
 
                                                                     <p style="margin:0;margin-bottom:10px;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:10px;padding:0;text-align:left">
-                                                                        Dear <?= $full_name ?>,
-                                                                        <br />
-                                                                        <br />
-                                                                        Anda telah berhasil registrasi di <?= Yii::$app->name ?> dengan menggunakan akun <?= $socmed ?> anda.
-                                                                        <br />
-                                                                        <br />
-                                                                        Email yang terdaftar : <?= $email ?>
+                                                                        Dear,
+                                                                        <br /><br />
+                                                                        Kami baru saja menerima permintaan untuk reset password Anda di Asikmakan.
+                                                                        Namun, kami mendapati bahwa Anda belum terdaftar sebagai member Asikmakan.
+                                                                        Anda dapat mendaftarkan diri untuk menikmati beragam keuntungan khusus member dengan mengklik tombol di bawah ini: <br /><br />
+                                                                        <?= Html::a(Yii::t('app', 'Register Asikmakan Member'), $registerLink, ['style' => 'Margin:0;background:#e73b3b;border-radius:4px;color:#fff;display:block;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:700;line-height:24px;margin:0;padding:8px;text-align:center;text-decoration:none']) ?>
                                                                         <br /><br />
                                                                         Salam,<br />
 																		Asikmakan

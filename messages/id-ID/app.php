@@ -189,6 +189,8 @@ return [
     'OR' => 'ATAU',
     'Sign In With {client}' => 'Masuk dengan {client}',
     'Your Account Has Been Activated' => 'Akun Anda Telah Diaktivasi',
+    'Activate This Account' => 'Aktivasi Akun Ini',
+    'Register Asikmakan Member' => 'Daftar Jadi Member Asikmakan',
     'Login to {app}' => 'Masuk ke {app}',
     'Login' => 'Masuk',
     'Logout' => 'Keluar',
