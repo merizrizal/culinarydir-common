@@ -264,7 +264,6 @@ return [
     'Order Details' => 'Detail Pesanan',
     'Reorder' => 'Pesan Lagi',
     'Business Product Category ID' => 'ID Kategori Produk Bisnis',
-    'Product Category' => 'Kategori Produk',
     'Add Notes to Seller (Optional)' => '(Opsional jika perlu): Tuliskan keterangan tambahan untuk penjual seperti alamat pengiriman atau jam pengambilan',
     'Order Information' => 'Keterangan Pemesanan',
     'For transfer or online payments, please send a screenshot of proof of payment' => 'Untuk pembayaran transfer atau online, mohon kirim screenshot bukti pembayaran',
@@ -281,6 +280,7 @@ return [
     'Delivery Name' => 'Nama Pengiriman',
     
     'Product Order' => 'Urutan Menu',
+    'Product Category Order' => 'Urutan Kategori Menu',
     
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
