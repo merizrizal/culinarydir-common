@@ -291,6 +291,9 @@ return [
     'Product Order' => 'Urutan Menu',
     'Product Category Order' => 'Urutan Kategori Menu',
     
+    'Type' => 'Tipe',
+    'Item Amount' => 'Jumlah Item',
+    
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
 ];
