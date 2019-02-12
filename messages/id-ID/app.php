@@ -293,6 +293,8 @@ return [
     
     'Type' => 'Tipe',
     'Item Amount' => 'Jumlah Item',
+    'Active Promo' => 'Promo Aktif',
+    'Inactive Promo' => 'Promo Non-Aktif',
     
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
