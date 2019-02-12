@@ -295,6 +295,7 @@ return [
     'Item Amount' => 'Jumlah Item',
     'Active Promo' => 'Promo Aktif',
     'Inactive Promo' => 'Promo Non-Aktif',
+    'Create Promo' => 'Tambah Promo',
     
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
