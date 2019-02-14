@@ -292,6 +292,7 @@ return [
     'Product Category Order' => 'Urutan Kategori Menu',
     
     'Type' => 'Tipe',
+    'Specific-Menu' => 'Menu + Hashtag',
     'Item Amount' => 'Jumlah Item',
     'Active Promo' => 'Promo Aktif',
     'Inactive Promo' => 'Promo Non-Aktif',
