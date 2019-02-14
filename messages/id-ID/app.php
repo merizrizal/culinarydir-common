@@ -298,6 +298,7 @@ return [
     'Active Promo' => 'Promo Aktif',
     'Inactive Promo' => 'Promo Non-Aktif',
     'Create Promo' => 'Tambah Promo',
+    'Uncategorized' => 'Tidak Terkategori',
     
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
