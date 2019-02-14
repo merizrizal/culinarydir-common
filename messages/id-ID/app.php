@@ -290,6 +290,7 @@ return [
     
     'Product Order' => 'Urutan Menu',
     'Product Category Order' => 'Urutan Kategori Menu',
+    'Add Product Category' => 'Tambah Kategori Menu',
     
     'Type' => 'Tipe',
     'Specific-Menu' => 'Menu + Hashtag',
