@@ -300,6 +300,8 @@ return [
     'Create Promo' => 'Tambah Promo',
     'Uncategorized' => 'Tidak Terkategori',
     'Add Multiple Product' => 'Tambah Banyak Menu',
+    'No Data Selected' => 'Tidak ada menu yang dipilih',
+    'Please select the data that you want to update first' => 'Mohon pilih menu yang ingin diubah terlebih dahulu',
     
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
