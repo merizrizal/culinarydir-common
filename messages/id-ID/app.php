@@ -293,7 +293,7 @@ return [
     'Add Product Category' => 'Tambah Kategori Menu',
     
     'Type' => 'Tipe',
-    'Specific-Menu' => 'Menu + Hashtag',
+    'Specific-Menu' => 'Specific + Menu',
     'Item Amount' => 'Jumlah Item',
     'Active Promo' => 'Promo Aktif',
     'Inactive Promo' => 'Promo Non-Aktif',
