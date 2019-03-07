@@ -173,6 +173,7 @@ return [
     'Above' => 'Di Atas',
     'Under' => 'Di Bawah',
     'Average Spending' => 'Biaya Rata-Rata',
+    'Any Price' => 'Berapapun',
     
     'Find Favourite Foods?' => 'Cari Makanan Favorit?',
     'Find Specials & Discounts?' => 'Cari Spesial & Diskon?',
