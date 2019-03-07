@@ -64,9 +64,9 @@ $baseUrl = !empty($isFromApi) ? str_replace('api/', '', $baseUrl) : $baseUrl; ?>
                                                                         Selamat anda berhasil mendapatkan promo dari Asikmakan!
                                                                         <br>
                                                                         Berikut adalah kode promo Anda: <br /><br />
-                                                                        <strong><?= explode('_', $modelPromoItem->id)[0] ?></strong>
+                                                                        <strong><?= explode('_', $modelPromoItem['id'])[0] ?></strong>
                                                                         <br /><br />
-                                                                        Silakan memasukkan kode tersebut di halaman checkout pesan online untuk mendapatkan potongan sebesar <strong><?= Yii::$app->formatter->asCurrency($modelPromoItem->amount) ?></strong> dari total pembelian.
+                                                                        Silakan memasukkan kode tersebut di halaman checkout pesan online untuk mendapatkan potongan sebesar <strong><?= Yii::$app->formatter->asCurrency($modelPromoItem['amount']) ?></strong> dari total pembelian.
                                                                         <br />
                                                                         Kode promo berlaku mulai tanggal <strong><?= $dateStart ?></strong> sampai <strong><?= $dateEnd ?></strong>.
                                                                         <br /><br />
