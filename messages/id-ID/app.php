@@ -232,7 +232,7 @@ return [
     'Write a Review' => 'Tulis Ulasan',
     'Share your experience here' => 'Bagikan pengalaman anda di sini',
     'What do you like about this place? Criticism and suggestions for improvement?' => 'Apa yang anda suka dari tempat ini? Kritik dan saran untuk perbaikan?',
-    'Drag and drop photos here. Maximum upload of 10 photos, maximum size 2 Mb/photo' => 'Tarik dan lepaskan foto di sini. Upload maximum 10 foto, ukuran maximum 2 Mb/foto',
+    'Drag and drop photos here. Maximum upload of 10 photos' => 'Tarik dan lepaskan foto di sini. Upload maximum 10 foto',
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
     'See Map' => 'Lihat Peta',
     'Map' => 'Peta',
