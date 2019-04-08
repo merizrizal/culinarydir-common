@@ -27,9 +27,14 @@ function drawCustomicheck(thisObj) {
 	}
 }
 
-function initCustomicheck() {
+function initCustomicheck(element) {
 	
 	var inputs = $('input[type="checkbox"], input[type="radio"]');
+	
+	if (element != null) {
+		
+		inputs = element;
+	}
 
 	inputs.each(function() {
 		
