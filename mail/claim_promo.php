@@ -61,12 +61,12 @@ $baseUrl = !empty($isFromApi) ? str_replace('api/', '', $baseUrl) : $baseUrl; ?>
                                                                     <p style="margin:0;margin-bottom:10px;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:10px;padding:0;text-align:left">
                                                                         Dear <?= $fullName ?>,
                                                                         <br /><br />
-                                                                        Selamat anda berhasil mendapatkan promo dari Asikmakan!
+                                                                        Selamat anda berhasil mendapatkan "Promo <?= $modelPromoItem['promo']['title'] ?>" dari Asikmakan!
                                                                         <br>
                                                                         Berikut adalah kode promo Anda: <br /><br />
                                                                         <strong><?= explode('_', $modelPromoItem['id'])[0] ?></strong>
                                                                         <br /><br />
-                                                                        Silakan memasukkan kode tersebut di halaman checkout pesan online untuk mendapatkan potongan sebesar <strong><?= Yii::$app->formatter->asCurrency($modelPromoItem['amount']) ?></strong> dari total pembelian.
+                                                                        Silakan memasukkan kode di atas pada halaman checkout pesan online untuk mendapatkan potongan sebesar <strong><?= Yii::$app->formatter->asCurrency($modelPromoItem['amount']) ?></strong> dari total pembelian.
                                                                         <br />
                                                                         Kode promo berlaku mulai tanggal <strong><?= $dateStart ?></strong> sampai <strong><?= $dateEnd ?></strong>.
                                                                         <br /><br />
