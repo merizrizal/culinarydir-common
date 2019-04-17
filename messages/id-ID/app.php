@@ -220,6 +220,7 @@ return [
     'Ambience' => 'Suasana',
     'Report' => 'Laporkan',
     'Online Order' => 'Pesan Online',
+    'Menu List' => 'Daftar Menu',
     'Close' => 'Tutup',
     'Submit' => 'Kirim',
     'Moved' => 'Pindah',
