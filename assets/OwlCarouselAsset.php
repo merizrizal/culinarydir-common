@@ -18,5 +18,4 @@ class OwlCarouselAsset extends AssetBundle {
     public $depends = [
         'yii\web\JqueryAsset',
     ];
-    
 }
