@@ -309,6 +309,8 @@ return [
     'Promo Code' => 'Kode Promo',
     'Got Promo Code?' => 'Punya kode promo?',
     
+    'Terms & Conditions' => 'Syarat & Ketentuan',
+    
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
 ];
