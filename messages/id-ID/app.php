@@ -310,6 +310,8 @@ return [
     'Got Promo Code?' => 'Punya kode promo?',
     
     'Terms & Conditions' => 'Syarat & Ketentuan',
+    'Minimum Amount Order' => 'Minimum Pembelian',
+    '{userClaimed} user have claimed this promo' => '{userClaimed} pengguna telah mengklaim promo ini',
     
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
