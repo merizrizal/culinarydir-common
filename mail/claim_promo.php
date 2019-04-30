@@ -31,7 +31,7 @@ $baseUrl = !empty($isFromApi) ? str_replace('api/', '', $baseUrl) : $baseUrl; ?>
                                                                     </table>
 
                                                                     <?= Html::img($baseUrl . 'media/img/asikmakan-logo.png', ['class' => 'img-responsive img-component', 'style' => 'height: 30px; margin-top: 5px;']); ?>
-                                                                    
+
                                                                 </th>
                                                                 <th class="expander" style="margin:0;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;padding:0!important;text-align:left;visibility:hidden;width:0">&nbsp;</th>
                                                             </tr>
@@ -61,7 +61,7 @@ $baseUrl = !empty($isFromApi) ? str_replace('api/', '', $baseUrl) : $baseUrl; ?>
                                                                     <p style="margin:0;margin-bottom:10px;color:#0a0a0a;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:19px;margin:0;margin-bottom:10px;padding:0;text-align:left">
                                                                         Dear <?= $fullName ?>,
                                                                         <br /><br />
-                                                                        Selamat anda berhasil mendapatkan "Promo <?= $modelPromoItem['promo']['title'] ?>" dari Asikmakan!
+                                                                        Selamat anda berhasil mendapatkan "<?= $modelPromoItem['promo']['title'] ?>" dari Asikmakan!
                                                                         <br>
                                                                         Berikut adalah kode promo Anda: <br /><br />
                                                                         <strong><?= explode('_', $modelPromoItem['id'])[0] ?></strong>
