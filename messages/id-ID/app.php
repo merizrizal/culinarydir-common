@@ -7,9 +7,9 @@ return [
     '{delta, plural, =1{a second} other{# seconds}} ago' => '{delta, plural, =1{satu detik} other{# detik}} lalu',
     '{delta, plural, =1{a year} other{# years}} ago' => '{delta, plural, =1{satu tahun} other{# tahun}} lalu',
     '{delta, plural, =1{an hour} other{# hours}} ago' => '{delta, plural, =1{satu jam} other{# jam}} lalu',
-    
+
     'This user is not active' => 'Akun ini tidak aktif',
-    
+
     'favorite' => 'favorit',
     'promo' => 'promo',
     'online-order' => 'pesan-online',
@@ -38,7 +38,7 @@ return [
 
     'More Detail' => 'Detail Lainnya',
     'Add' => 'Tambah',
-    
+
     'Next' => 'Selanjutnya',
 
     'KPI by Sales Consultant' => 'KPI Konsultan',
@@ -80,13 +80,13 @@ return [
     'Business Location' => 'Lokasi Bisnis',
     'Photo' => 'Foto',
     'Back To Home Page' => 'Kembali Ke Halaman Utama',
-    
+
     'Food' => 'Makanan',
     'Service' => 'Pelayanan',
     'Atmosphere' => 'Suasana',
     'Cleanliness' => 'Kebersihan',
     'Value' => 'Kepuasan',
-    
+
     'User' => 'User',
     'User Level ID' => 'ID Level User',
     'Full Name' => 'Nama Lengkap',
@@ -174,12 +174,12 @@ return [
     'Under' => 'Di Bawah',
     'Average Spending' => 'Biaya Rata-Rata',
     'Any Price' => 'Berapapun',
-    
+
     'Find Favourite Foods?' => 'Cari Makanan Favorit?',
     'Find Specials & Discounts?' => 'Cari Spesial & Diskon?',
     'Want to Order Online?' => 'Mau Pesan Online?',
     'Favorite' => 'Favorit',
-    
+
     'Forgot Password' => 'Lupa Password',
     'Change Password' => 'Ganti Passsword',
     'Change Password Successful' => 'Ganti Passsword Berhasil',
@@ -216,7 +216,7 @@ return [
     'Please login with your Email / Username by clicking the button below.' => 'Silakan masuk dengan Email / Username Anda dengan mengklik tombol di bawah.',
     'Please enter your new password.' => 'Silakan masukkan password baru Anda.',
     'Hello' => 'Halo',
-    
+
     'Ambience' => 'Suasana',
     'Report' => 'Laporkan',
     'Online Order' => 'Pesan Online',
@@ -250,7 +250,7 @@ return [
     'Are you sure want to delete this?' => 'Apakah Anda yakin akan menghapus ini?',
     'This business:' => 'Bisnis ini:',
     'Tell about your situation or complaint.' => 'Ceritakan mengenai situasi atau keluhan anda.',
-    
+
     'View Details' => 'Tampilkan Detail',
     'Search Result' => 'Hasil Pencarian',
     'Back' => 'Kembali',
@@ -279,22 +279,22 @@ return [
     'Add Notes to Seller (Optional)' => '(Opsional jika perlu): Tuliskan keterangan tambahan untuk penjual seperti alamat pengiriman atau jam pengambilan',
     'Order Information' => 'Keterangan Pemesanan',
     'For transfer or online payments, please send a screenshot of proof of payment' => 'Untuk pembayaran transfer atau online, mohon kirim screenshot bukti pembayaran',
-    
+
     'Coming Soon' => 'Segera Hadir',
     'Search menu category here' => 'Cari kategori menu disini',
     'Today' => 'Hari ini',
-    
+
     'Payment Methods' => 'Metode Pembayaran',
     'Payment Name' => 'Nama Pembayaran',
     'Method' => 'Metode',
-    
+
     'Delivery Methods' => 'Metode Pengiriman',
     'Delivery Name' => 'Nama Pengiriman',
-    
+
     'Product Order' => 'Urutan Menu',
     'Product Category Order' => 'Urutan Kategori Menu',
     'Add Product Category' => 'Tambah Kategori Menu',
-    
+
     'Type' => 'Tipe',
     'Specific-Menu' => 'Specific + Menu',
     'Item Amount' => 'Jumlah Item',
@@ -305,14 +305,17 @@ return [
     'Add Multiple Product' => 'Tambah Banyak Menu',
     'No Data Selected' => 'Tidak ada menu yang dipilih',
     'Please select the data that you want to update first' => 'Mohon pilih menu yang ingin diubah terlebih dahulu',
-    
+
     'Promo Code' => 'Kode Promo',
     'Got Promo Code?' => 'Punya kode promo?',
-    
+
     'Terms & Conditions' => 'Syarat & Ketentuan',
     'Minimum Amount Order' => 'Minimum Pembelian',
     '{userClaimed} user have claimed this promo' => '{userClaimed} pengguna telah mengklaim promo ini',
-    
+    'You and {userClaimed} other user have claimed this promo' => 'Anda dan {userClaimed} pengguna lain telah mengklaim promo ini',
+    'You have claimed this promo' => 'Anda telah mengklaim promo ini',
+    'No user has claimed this promo yet' => 'Belum ada pengguna yang mengklaim promo ini',
+
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
 ];
