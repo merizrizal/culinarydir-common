@@ -11,7 +11,10 @@ class Helper {
         $diff = date_diff(date_create($value), date_create(Yii::$app->formatter->asDate(time())));
 
         if ($diff->format("%a") > '30') {
-            return Yii::$app->formatter->asDate($value, 'medium');
+            Yii::$app->formatter->timeZone = 'Asia/Jakarta';
+            $date = Yii::$app->formatter->asDate($value, 'medium');
+            Yii::$app->formatter->timeZone = 'UTC';
+            return $date;
         } else {
             return Yii::$app->formatter->asRelativeTime($value);
         }
