@@ -2,7 +2,6 @@
 
 namespace common\components;
 
-use Yii;
 use DateInterval;
 use DateTime;
 use DateTimeZone;

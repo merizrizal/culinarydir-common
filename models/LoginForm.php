@@ -1,9 +1,8 @@
 <?php
 namespace common\models;
 
-use Yii;
-use yii\base\Model;
 use core\models\User;
+use yii\base\Model;
 
 /**
  * Login form
@@ -14,7 +13,7 @@ class LoginForm extends Model
     public $password;
     public $rememberMe = true;
     public $useSocmed = false;
-    
+
     public $useToken = false;
     public $token;
 
@@ -55,11 +54,11 @@ class LoginForm extends Model
     public function validatePassword($attribute, $params)
     {
         if (!$this->hasErrors()) {
-            
+
             $user = $this->getUser();
-            
+
             if (!$user || !$user->validatePassword($this->password)) {
-                
+
                 $this->addError($attribute, 'Email / Username atau Password salah.');
             }
         }
@@ -76,12 +75,12 @@ class LoginForm extends Model
         $validate = true;
 
         if (!$this->useSocmed && !$this->useToken) {
-            
+
             $validate = $this->validate();
         }
 
         if ($validate && !empty($this->getUser()) && !($notActive = $this->getUser()->not_active)) {
-            
+
             if (Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0)) {
 
                 $modelUser = User::find()
@@ -109,7 +108,7 @@ class LoginForm extends Model
         } else {
 
             if ($notActive) {
-                
+
                 $this->addError('login_id', Yii::t('app', 'This user is not active'));
             }
 
@@ -125,19 +124,19 @@ class LoginForm extends Model
     public function getUser()
     {
         if ($this->_user === false) {
-            
+
             if ($this->useToken) {
-                
+
                 $this->_user = User::findIdentityByAccessToken($this->token);
             } else {
 
                 $validator = new \yii\validators\EmailValidator();
-    
+
                 if ($validator->validate($this->login_id)) {
-                    
+
                     $this->_user = User::findByEmail($this->login_id);
                 } else {
-                    
+
                     $this->_user = User::findByUsername($this->login_id);
                 }
             }
