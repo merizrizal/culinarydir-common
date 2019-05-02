@@ -81,13 +81,13 @@ class LoginForm extends Model
 
         if ($validate && !empty($this->getUser()) && !($notActive = $this->getUser()->not_active)) {
 
-            if (Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0)) {
+            if (\Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0)) {
 
                 $modelUser = User::find()
                     ->joinWith([
                         'userLevel',
                     ])
-                    ->andWhere(['user.id' => Yii::$app->user->getIdentity()->id])
+                    ->andWhere(['user.id' => \Yii::$app->user->getIdentity()->id])
                     ->asArray()->one();
 
                 $data['user_level']['id'] = $modelUser['userLevel']['id'];
@@ -101,7 +101,7 @@ class LoginForm extends Model
 
                 $data['user_level']['userAkses'] = $userAkses;
 
-                Yii::$app->session->set('user_data', $data);
+                \Yii::$app->session->set('user_data', $data);
 
                 return true;
             }
@@ -109,7 +109,7 @@ class LoginForm extends Model
 
             if ($notActive) {
 
-                $this->addError('login_id', Yii::t('app', 'This user is not active'));
+                $this->addError('login_id', \Yii::t('app', 'This user is not active'));
             }
 
             return false;
