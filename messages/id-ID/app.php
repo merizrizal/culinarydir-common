@@ -61,6 +61,9 @@ return [
     'Delete process is success. Data has been deleted' => 'Proses delete sukses. Data telah dihapus',
     'Delete Is Fail' => 'Delete Gagal',
     'Delete process is fail. Data fail to delete' => 'Proses delete gagal. Data gagal dihapus',
+    'This contact is already added as user' => 'Kontak sudah ditambahkan sebagai user',
+    'No User Selected' => 'Tidak ada user yang dipilih',
+    'Please select the user that you want to add first' => 'Harap memilih user yang ingin ditambahkan',
 
     'Parent ID' => 'ID Induk',
     'Name' => 'Nama',
