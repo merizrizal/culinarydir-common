@@ -64,6 +64,11 @@ return [
     'This contact is already added as user' => 'Kontak sudah ditambahkan sebagai user',
     'No User Selected' => 'Tidak ada user yang dipilih',
     'Please select the user that you want to add first' => 'Harap memilih user yang ingin ditambahkan',
+    'Input user\'s email that you want to add' => 'Masukkan email dari user yang ingin anda tambahkan',
+    'User Not Found' => 'User Tidak Ditemukan',
+    'No user found by that email' => 'Tidak ada user dengan email tersebut',
+    'This contact person has already added as user, do you want to merge it?' => 'Narahubung ini sudah pernah ditambahkan sebagai user, apakah anda mau menggabungkan datanya?',
+    'Add As User' => 'Tambahkan Sebagai User',
 
     'Parent ID' => 'ID Induk',
     'Name' => 'Nama',
