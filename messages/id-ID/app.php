@@ -68,6 +68,7 @@ return [
     'User Not Found' => 'User Tidak Ditemukan',
     'No user found by that email' => 'Tidak ada user dengan email tersebut',
     'This contact person has already added as user, do you want to merge it?' => 'Narahubung ini sudah pernah ditambahkan sebagai user, apakah anda mau menggabungkan datanya?',
+    'This user has already added as contact person, do you want to merge it?' => 'User ini sudah pernah ditambahkan sebagai narahubung, apakah anda mau menggabungkan datanya?',
     'Add As User' => 'Tambahkan Sebagai User',
 
     'Parent ID' => 'ID Induk',
