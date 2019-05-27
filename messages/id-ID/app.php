@@ -315,6 +315,7 @@ return [
     'No Data Selected' => 'Tidak ada menu yang dipilih',
     'Please select the data that you want to update first' => 'Mohon pilih menu yang ingin diubah terlebih dahulu',
 
+    'News And Promo' => 'Berita dan Promo',
     'Promo Code' => 'Kode Promo',
     'Got Promo Code?' => 'Punya kode promo?',
 
