@@ -70,6 +70,10 @@ return [
     'This contact person has already added as user, do you want to merge it?' => 'Narahubung ini sudah pernah ditambahkan sebagai user, apakah anda mau menggabungkan datanya?',
     'This user has already added as contact person, do you want to merge it?' => 'User ini sudah pernah ditambahkan sebagai narahubung, apakah anda mau menggabungkan datanya?',
     'Add As User' => 'Tambahkan Sebagai User',
+    'Add to Business Is Success' => 'Tambah Metode Pengiriman Sukses',
+    'Add to Business Is Fail' => 'Tambah Metode Pengiriman Gagal',
+    'Delivery method is successfully added to all business' => 'Metode pengiriman berhasil ditambahkan ke semua bisnis',
+    'Delivery method is fail to added' => 'Metode pengiriman gagal ditambahkan',
 
     'Parent ID' => 'ID Induk',
     'Name' => 'Nama',
