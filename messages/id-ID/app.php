@@ -330,6 +330,8 @@ return [
     'You have claimed this promo' => 'Anda telah mengklaim promo ini',
     'No user has claimed this promo yet' => 'Belum ada pengguna yang mengklaim promo ini',
 
+    'Total Cash' => 'Total Uang Tunai',
+
     'Help Centre' => 'Pusat Bantuan',
     'About Us' => 'Tentang Kami',
 ];
