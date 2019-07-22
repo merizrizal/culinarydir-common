@@ -3,6 +3,7 @@ namespace common\models;
 
 use core\models\User;
 use yii\base\Model;
+use core\models\UserAksesAppModule;
 
 /**
  * Login form
@@ -83,23 +84,33 @@ class LoginForm extends Model
 
             if (\Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0)) {
 
+                $data = [];
+
                 $modelUser = User::find()
                     ->joinWith([
-                        'userLevel',
+                        'userRoles' => function ($query) {
+
+                            $query->andOnCondition(['user_role.is_active' => true]);
+                        },
+                        'userRoles.userLevel'
                     ])
                     ->andWhere(['user.id' => \Yii::$app->user->getIdentity()->id])
                     ->asArray()->one();
 
-                $data['user_level']['id'] = $modelUser['userLevel']['id'];
-                $data['user_level']['nama_level'] = $modelUser['userLevel']['nama_level'];
-                $data['user_level']['is_super_admin'] = $modelUser['userLevel']['is_super_admin'];
+                foreach ($modelUser['userRoles'] as $i => $dataUserRole) {
 
-                $userAkses = \core\models\UserAkses::find()
-                    ->joinWith(['userLevel', 'userAppModule'])
-                    ->andWhere(['user_akses.user_level_id' => $data['user_level']['id']])
+                    $data['user_level'][$i]['id'] = $dataUserRole['user_level_id'];
+                    $data['user_level'][$i]['nama_level'] = $dataUserRole['userLevel']['nama_level'];
+                    $data['user_level'][$i]['is_super_admin'] = $dataUserRole['userLevel']['is_super_admin'];
+                }
+
+                $userAkses = UserAksesAppModule::find()
+                    ->joinWith(['userAppModule'])
+                    ->andWhere(['user_akses_app_module.user_id' => \Yii::$app->user->getIdentity()->id])
+                    ->andWhere(['user_akses_app_module.is_active' => true])
                     ->asArray()->all();
 
-                $data['user_level']['userAkses'] = $userAkses;
+                $data['user_akses'] = $userAkses;
 
                 \Yii::$app->session->set('user_data', $data);
 
