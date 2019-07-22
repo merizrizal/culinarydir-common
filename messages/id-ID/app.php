@@ -162,12 +162,18 @@ return [
     'Date Start' => 'Tanggal Mulai',
     'Date End' => 'Tanggal Berakhir',
     'Position' => 'Jabatan',
+
     'Date Birth' => 'Tanggal Lahir',
     'Number Plate' => 'Plat Nomor Kendaraan',
     'Stnk Expired' => 'Tanggal Habis STNK',
     'Emergency Contact Name' => 'Nama Kontak Darurat',
     'Emergency Contact Phone' => 'Nomor Kontak Darurat',
     'Emergency Contact Address' => 'Alamat Kontak Darurat',
+    'Other Driver ?' => 'Sedang Menjadi Driver ?',
+    'Driver Information' => 'Informasi Driver',
+    'Driver Name' => 'Nama Driver',
+    'Motor Brand' => 'Merek Motor',
+    'Motor Type' => 'Tipe Motor',
 
     'Open' => 'Buka',
     'Closed' => 'Tutup',
