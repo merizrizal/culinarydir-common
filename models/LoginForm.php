@@ -1,8 +1,8 @@
 <?php
 namespace common\models;
 
-use core\models\User;
 use yii\base\Model;
+use core\models\User;
 use core\models\UserAksesAppModule;
 
 /**
