@@ -174,6 +174,9 @@ return [
     'Driver Name' => 'Nama Driver',
     'Motor Brand' => 'Merek Motor',
     'Motor Type' => 'Tipe Motor',
+    'Motor Criteria' => 'Kriteria Motor',
+    'Driver Criteria' => 'Kriteria Driver',
+    'Driver Attachment' => 'Berkas Driver',
 
     'Open' => 'Buka',
     'Closed' => 'Tutup',
