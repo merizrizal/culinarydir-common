@@ -1,6 +1,6 @@
 <?php
 return [
-    'adminEmail' => 'meriz.works@gmail.com',    
+    'adminEmail' => 'meriz.works@gmail.com',
     'user.passwordResetTokenExpire' => 3600,
 
     'currencyOptions' => '
@@ -53,4 +53,10 @@ return [
         'backoffice' => 'backoffice',
         'front' => '',
     ],
+
+    'appName' => [
+        'frontend' => 'frontend',
+        'backoffice' => 'backoffice',
+        'user-app' => 'user-app'
+    ]
 ];

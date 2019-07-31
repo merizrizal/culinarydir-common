@@ -9,6 +9,7 @@ return [
     '{delta, plural, =1{an hour} other{# hours}} ago' => '{delta, plural, =1{satu jam} other{# jam}} lalu',
 
     'This user is not active' => 'Akun ini tidak aktif',
+    'You are not allowed to login' => 'Anda tidak diperbolehkan login',
 
     'favorite' => 'favorit',
     'promo' => 'promo',

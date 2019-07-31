@@ -70,10 +70,11 @@ class LoginForm extends Model
      *
      * @return boolean whether the user is logged in successfully
      */
-    public function login()
+    public function login($loginSource)
     {
         $notActive = false;
         $validate = true;
+        $success = false;
 
         if (!$this->useSocmed && !$this->useToken) {
 
@@ -82,39 +83,46 @@ class LoginForm extends Model
 
         if ($validate && !empty($this->getUser()) && !($notActive = $this->getUser()->not_active)) {
 
-            if (\Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0)) {
+            $modelUser = User::find()
+                ->joinWith([
+                    'userRoles' => function ($query) {
 
-                $data = [];
+                        $query->andOnCondition(['user_role.is_active' => true]);
+                    },
+                    'userRoles.userLevel'
+                ])
+                ->andWhere(['user.id' => $this->getUser()->id])
+                ->andWhere('"user_level"."app_akses" @> \'{"app_name" : ["' . $loginSource . '"]}\'')
+                ->asArray()->one();
 
-                $modelUser = User::find()
-                    ->joinWith([
-                        'userRoles' => function ($query) {
+            if (!empty($modelUser)) {
 
-                            $query->andOnCondition(['user_role.is_active' => true]);
-                        },
-                        'userRoles.userLevel'
-                    ])
-                    ->andWhere(['user.id' => \Yii::$app->user->getIdentity()->id])
-                    ->asArray()->one();
+                if (\Yii::$app->user->login($this->getUser(), $this->rememberMe ? 3600 * 24 * 30 : 0)) {
 
-                foreach ($modelUser['userRoles'] as $i => $dataUserRole) {
+                    $data = [];
 
-                    $data['user_level'][$i]['id'] = $dataUserRole['user_level_id'];
-                    $data['user_level'][$i]['nama_level'] = $dataUserRole['userLevel']['nama_level'];
-                    $data['user_level'][$i]['is_super_admin'] = $dataUserRole['userLevel']['is_super_admin'];
-                }
+                    foreach ($modelUser['userRoles'] as $i => $dataUserRole) {
 
-                $userAkses = UserAksesAppModule::find()
+                        $data['user_level'][$i]['id'] = $dataUserRole['user_level_id'];
+                        $data['user_level'][$i]['nama_level'] = $dataUserRole['userLevel']['nama_level'];
+                        $data['user_level'][$i]['is_super_admin'] = $dataUserRole['userLevel']['is_super_admin'];
+                    }
+
+                    $userAkses = UserAksesAppModule::find()
                     ->joinWith(['userAppModule'])
                     ->andWhere(['user_akses_app_module.user_id' => \Yii::$app->user->getIdentity()->id])
                     ->andWhere(['user_akses_app_module.is_active' => true])
                     ->asArray()->all();
 
-                $data['user_akses'] = $userAkses;
+                    $data['user_akses'] = $userAkses;
 
-                \Yii::$app->session->set('user_data', $data);
+                    \Yii::$app->session->set('user_data', $data);
 
-                return true;
+                    $success = true;
+                }
+            } else {
+
+                $this->addError('login_id', \Yii::t('app', 'You are not allowed to login'));
             }
         } else {
 
@@ -122,9 +130,9 @@ class LoginForm extends Model
 
                 $this->addError('login_id', \Yii::t('app', 'This user is not active'));
             }
-
-            return false;
         }
+
+        return $success;
     }
 
     /**
