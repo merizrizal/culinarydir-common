@@ -57,6 +57,7 @@ return [
     'appName' => [
         'frontend' => 'frontend',
         'backoffice' => 'backoffice',
-        'user-app' => 'user-app'
+        'user-app' => 'user-app',
+        'driver-app' => 'driver-app'
     ]
 ];
