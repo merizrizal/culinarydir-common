@@ -1,9 +1,9 @@
 <?php
 namespace common\models;
 
-use yii\base\Model;
 use core\models\User;
 use core\models\UserAksesAppModule;
+use yii\base\Model;
 
 /**
  * Login form
@@ -109,10 +109,9 @@ class LoginForm extends Model
                     }
 
                     $userAkses = UserAksesAppModule::find()
-                    ->joinWith(['userAppModule'])
-                    ->andWhere(['user_akses_app_module.user_id' => \Yii::$app->user->getIdentity()->id])
-                    ->andWhere(['user_akses_app_module.is_active' => true])
-                    ->asArray()->all();
+                        ->joinWith(['userAppModule'])
+                        ->andWhere(['user_akses_app_module.user_id' => \Yii::$app->user->getIdentity()->id])
+                        ->asArray()->all();
 
                     $data['user_akses'] = $userAkses;
 
