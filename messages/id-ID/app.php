@@ -10,6 +10,7 @@ return [
 
     'This user is not active' => 'Akun ini tidak aktif',
     'You are not allowed to login' => 'Anda tidak diperbolehkan login',
+    'Login unsuccessful' => 'Login tidak berhasil',
 
     'favorite' => 'favorit',
     'promo' => 'promo',
