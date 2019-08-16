@@ -186,6 +186,7 @@ return [
     'Criteria Status' => 'Status Kriteria',
     'No Ktp' => 'Nomor KTP',
     'No Sim' => 'Nomor SIM',
+    'Number of files and number of photos does not match.' => 'Jumlah jenis berkas dan jumlah foto tidak sesuai.',
 
     'Open' => 'Buka',
     'Closed' => 'Tutup',
@@ -271,7 +272,6 @@ return [
     'Write a Review' => 'Tulis Ulasan',
     'Share your experience here' => 'Bagikan pengalaman anda di sini',
     'What do you like about this place? Criticism and suggestions for improvement?' => 'Apa yang anda suka dari tempat ini? Kritik dan saran untuk perbaikan?',
-    'Drag and drop photos here. Maximum upload of 10 photos, maximum size 2 Mb/photo' => 'Tarik dan lepaskan foto di sini. Upload maksimum 10 foto, ukuran maximum 2 Mb/foto',
     'Drag and drop photos here. Maximum upload of 10 photos' => 'Tarik dan lepaskan foto di sini. Upload maksimum 10 foto',
     'Drag and drop photos here' => 'Tarik dan lepaskan foto di sini',
     'Back to Search Result' => 'Kembali ke Hasil Pencarian',
