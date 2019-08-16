@@ -184,6 +184,7 @@ return [
     'Criteria Status' => 'Status Kriteria',
     'No Ktp' => 'Nomor KTP',
     'No Sim' => 'Nomor SIM',
+    'Number of files and number of photos does not match.' => 'Jumlah jenis berkas dan jumlah foto tidak sesuai.',
 
     'Open' => 'Buka',
     'Closed' => 'Tutup',
