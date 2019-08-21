@@ -289,6 +289,7 @@ return [
     'Are you sure want to delete this?' => 'Apakah Anda yakin akan menghapus ini?',
     'This business:' => 'Bisnis ini:',
     'Tell about your situation or complaint.' => 'Ceritakan mengenai situasi atau keluhan anda.',
+    'Please fill in the rating first' => 'Silahkan isi rating terlebih dahulu',
 
     'View Details' => 'Tampilkan Detail',
     'Search Result' => 'Hasil Pencarian',
