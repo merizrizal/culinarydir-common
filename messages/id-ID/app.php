@@ -187,6 +187,7 @@ return [
     'No Ktp' => 'Nomor KTP',
     'No Sim' => 'Nomor SIM',
     'Number of files and number of photos does not match.' => 'Jumlah jenis berkas dan jumlah foto tidak sesuai.',
+    'You can upload up to {limit} photos' => 'Anda dapat mengunggah paling banyak {limit} foto',
 
     'Open' => 'Buka',
     'Closed' => 'Tutup',
@@ -290,6 +291,7 @@ return [
     'This business:' => 'Bisnis ini:',
     'Tell about your situation or complaint.' => 'Ceritakan mengenai situasi atau keluhan anda.',
     'Please fill in the rating first' => 'Silahkan isi rating terlebih dahulu',
+    'Phone number not available' => 'Nomor telepon tidak tersedia',
 
     'View Details' => 'Tampilkan Detail',
     'Search Result' => 'Hasil Pencarian',
