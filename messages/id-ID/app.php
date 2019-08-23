@@ -14,6 +14,8 @@ return [
     'promo' => 'promo',
     'online-order' => 'pesan-online',
 
+    'Information' => 'Informasi',
+
     'Welcome' => 'Selamat Datang',
     'Main Menu' => 'Menu Utama',
     'User Management' => 'Manajemen User',
