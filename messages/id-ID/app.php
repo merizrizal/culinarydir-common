@@ -190,6 +190,9 @@ return [
     'No Sim' => 'Nomor SIM',
     'Number of files and number of photos does not match.' => 'Jumlah jenis berkas dan jumlah foto tidak sesuai.',
     'You can upload up to {limit} photos' => 'Anda dapat mengunggah paling banyak {limit} foto',
+    'Create Driver' => 'Tambah Driver',
+    'Pending Driver' => 'Driver Pending',
+    'Incorrect Driver' => 'Driver Incorrect',
 
     'Open' => 'Buka',
     'Closed' => 'Tutup',
