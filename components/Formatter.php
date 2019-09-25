@@ -97,7 +97,7 @@ class Formatter extends \yii\i18n\Formatter {
 
         if (!empty($value)) {
 
-            return str_replace('km', 'K', \Yii::$app->formatter->asShortLength($value));
+            return str_replace('km', 'K', $this->asShortLength($value));
         }
     }
 
@@ -109,7 +109,7 @@ class Formatter extends \yii\i18n\Formatter {
 
         if (!empty($value)) {
 
-            return str_replace('Rp', '', \Yii::$app->formatter->asCurrency($value));
+            return str_replace('Rp', '', $this->asCurrency($value));
         }
     }
 }
