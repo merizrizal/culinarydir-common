@@ -6,10 +6,13 @@ use yii\helpers\Html;
 /* @var $email string */
 /* @var $full_name string */
 /* @var $userToken string */
+/* @var $oassword string */
 /* @var $isFromApi bool */
+/* @var $isFromBackoffice bool */
 
 $baseUrl = \Yii::$app->urlManager->createAbsoluteUrl('');
 $baseUrl = !empty($isFromApi) ? str_replace('api/', '', $baseUrl) : $baseUrl;
+$baseUrl = !empty($isFromBackoffice) ? str_replace('backoffice/', '', $baseUrl) : $baseUrl;
 
 $activationLink = $baseUrl . 'site/activate-account?token=' . $userToken; ?>
 
@@ -71,6 +74,17 @@ $activationLink = $baseUrl . 'site/activate-account?token=' . $userToken; ?>
                                                                         <br />
                                                                         <br />
                                                                         Anda telah melakukan registrasi di <?= \Yii::$app->name ?> dengan email <?= $email ?>.
+
+                                                                       	<?php
+                                                                       	if (!empty($isFromBackoffice)): ?>
+
+                                                                        <br />
+                                                                        <br />
+                                                                        Kata sandi anda adalah <b><?= $password ?></b>
+
+                                                                        <?php
+                                                                        endif; ?>
+
                                                                         <br />
                                                                         <br />
                                                                         Silahkan mengaktivasi akun anda dengan mengklik tombol di bawah ini:

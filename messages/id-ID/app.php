@@ -182,7 +182,7 @@ return [
     'Driver Criteria' => 'Kriteria Driver',
     'Driver Attachment' => 'Berkas Driver',
     'Person As Driver' => 'Data Driver',
-    'Is Criteria Passed' => 'Telah memenuhi kriteria ?',
+    'Is Criteria Passed' => 'Telah memenuhi kriteria',
     'Attachment Type' => 'Jenis Berkas',
     'File Name' => 'Nama File',
     'Criteria Status' => 'Status Kriteria',
@@ -193,6 +193,8 @@ return [
     'Create Driver' => 'Tambah Driver',
     'Pending Driver' => 'Driver Pending',
     'Incorrect Driver' => 'Driver Incorrect',
+    'Reject Driver' => 'Driver Reject',
+    'Add User' => 'Tambah User',
 
     'Open' => 'Buka',
     'Closed' => 'Tutup',
